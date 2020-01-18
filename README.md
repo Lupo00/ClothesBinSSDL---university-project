@@ -1,6 +1,6 @@
 # Clothes Bin SSDL
 ## Description
-The Clothes Bin SSDL system enable any user to creates clothes bin and manage their content.
+The Clothes Bin SSDL system enable any user to creates clothes bins and manage their content.
 The system contains 3 parts:
 ### 1. Website:
    Users could go to the website (locally or by the browser - depend on the deployment of the system),
