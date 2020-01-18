@@ -63,7 +63,7 @@ void sendMail(){
   message.message += ",<br> The bin which located in ";
   message.message += location;
   message.message += " has reached your limit <br> You should go empty your bin<br><br> Have a nice day,<br>Bin Admin"; 
-  EMailSender emailSend("BinMasterSSDL@gmail.com", "ssdl1990");
+  EMailSender emailSend(MAIL_NAME, MAIL_PASSWORD);
   EMailSender::Response resp = emailSend.send(mail, message);
   delay(5000);
 }
