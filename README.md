@@ -24,3 +24,24 @@ The system contains 3 parts:
    
    ## Diagram of the system
 ![alt text](https://github.com/Lupo00/ClothesBinSSDL/blob/master/README/system.png?raw=true)
+
+
+# Let's start
+If you like a defualt deployment when you get the application from locally website,
+you should clone , change the next parameters:
+
+### Change parameters:
+- [DatabaseUtils](https://github.com/Lupo00/ClothesBinSSDL/blob/master/Website/js/DatabaseUtils.js) you should to change FIREBASE_URL parameter to the firebase url 
+- [Arduino Code](https://github.com/Lupo00/ClothesBinSSDL/blob/master/Arduino/IoTDevice/IoTDevice.ino) you should change the next paramters:
+   * define FIREBASE_HOST "FIREBASE_HOST" - Change to the firebase url 
+   * define FIREBASE_AUTH "FIREBASE_AUTH" - Change to the [Auth parameter (secert key)](https://www.instructables.com/id/Firebase-Integrate-With-ESP8266/)
+   * define WIFI_SSID "WIFI_NAME" - WiFi name as you see in your computer
+   * define WIFI_PASSWORD "WIFI_PASSWORD" - WiFi password
+
+### Firebase rules:
+After you define project, you should to change the rules in the data store and enable to read and write.
+
+### Allow to sent mails from Gmail  
+- [Add Gmail account to SMTP](https://www.electronicshub.org/send-an-email-using-esp8266/)
+- [Allow less secure apps to access your Gmail account](https://www.mischianti.org/2019/09/10/send-email-with-esp8266-and-arduino/)
+- Change emailSend [parameter in line 66](https://github.com/Lupo00/ClothesBinSSDL/blob/master/Arduino/IoTDevice/IoTDevice.ino)
