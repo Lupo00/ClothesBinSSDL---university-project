@@ -18,4 +18,5 @@ The system contains 3 parts:
    The firebase save about every bin the next parameters:
    | Id  | Name | Height | curHeight | Limit | Owner | Location | Mail |
    | --- | ---- | ------ | --------- | ----- | ----- | -------- | ---- |
+   | 10 | Aviv | 60 | 21 | 44 | Aviv | Tel Aviv | aviv@gmail.com |
 ![alt text](https://github.com/Lupo00/ClothesBinSSDL/blob/master/README/system.png?raw=true)
