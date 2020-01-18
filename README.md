@@ -27,7 +27,8 @@ The system contains 3 parts:
 
 
 # Let's start
-If you like a defualt deployment when you get the application from locally website,
+If you like a defualt deployment,
+when you get the application from locally website,
 you should clone , change the next parameters:
 
 ### Change parameters:
