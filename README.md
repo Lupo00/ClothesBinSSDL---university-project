@@ -15,7 +15,7 @@ The system contains 3 parts:
 * [Ultrasonic sensor](https://www.amazon.com/gp/product/B07RGB4W8V/ref=ppx_yo_dt_b_asin_title_o02_s01?ie=UTF8&psc=1)
 * [(OPTIONAL) Case for Arduino](https://www.amazon.com/gp/product/B075SX6WYJ/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 ### 3. Firebase "database":
-   The firebase save about every bin the next parameters: <br>
+   The firebase save every bin in the next format: <br>
    
    | Id  | Name | Height | curHeight | Limit | Owner | Location |      Mail      |
    | --- | ---- | ------ | --------- | ----- | ----- | -------- | -------------- |
