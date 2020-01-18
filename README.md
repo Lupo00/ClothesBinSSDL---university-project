@@ -22,5 +22,5 @@ The system contains 3 parts:
    | 10  | Aviv |   60   |     21    |   44  |  Aviv | Tel Aviv | aviv@gmail.com |
    
    
-   ## diagram of the system
+   ## Diagram of the system
 ![alt text](https://github.com/Lupo00/ClothesBinSSDL/blob/master/README/system.png?raw=true)
