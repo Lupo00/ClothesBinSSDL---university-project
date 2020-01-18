@@ -1,0 +1,54 @@
+#SetupIoTDeviceTitle{
+    margin-left:43%;
+}
+
+#SetupIoTDeviceStepNumber{
+    margin-left:43%;
+    display:inline-block
+}
+
+#Step1SetupIoTDevice, #Step2SetupIoTDevice{
+    display:inline-block
+}
+
+#BinImage{
+    margin-left:45%;
+    width:200px;
+    height:130px
+}
+
+#PlugAndSocket{
+    margin-left:46%;
+    margin-top:50px;
+    width: 200px;
+}
+
+#PlugImage{
+    margin-top:1px;
+    width:100px
+}
+
+#SocketImage{
+    width:100px
+}
+
+#PowerPlug {
+ width:100px;
+ height:1px;
+ background: #fafef0;
+  -webkit-transition: margin-left 2s; /* For Safari 3.1 to 6.0 */
+  transition: margin-left 2s;
+}
+
+.connectToPlug {
+  margin-left: 30px;
+}
+
+svg {
+  width: 50%;
+  height: 50%;
+  margin-left: 350px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+main {
+  margin-top: 40px;
+}
+
+.search-form {
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-row {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.search-input-container {
+  flex: 1;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+.search-input {
+  border: 1px solid rgba(0, 0, 0, 0.54);
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.search-submit {
+  border: 1px solid #1c5b72;
+  padding: 8px 16px;
+  background: #1c5b72;
+  display: flex;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-submit svg {
+  margin-top:50px;
+  margin-left:300px;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.search-auto-complete {
+  display: none;
+  position: absolute;
+  margin-top: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.54);
+  padding: 4px 0;
+  width: 100%;
+  z-index: 1;
+  background: #fff;
+  transition: none;
+}
+
+.search-auto-complete.show {
+  display: block;
+  width: 534px;
+}
+
+.search-auto-complete ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: none;
+}
+
+.auto-complete-item {
+  padding: 4px 8px;
+  
+}
+
+.auto-complete-item:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.auto-complete-item.selected {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+/* General layout and typography stuff */
+
+
+
+
+header {
+  padding: 40px;
+  min-height: 50px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+header > * {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header > :last-child {
+  margin-bottom: 0;
+}
+

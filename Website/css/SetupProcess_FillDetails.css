@@ -1,0 +1,33 @@
+#Details{
+    margin-left:41%;
+    margin-top:20px;
+}
+
+#FillDetailsTitle{
+    margin-left:7%
+}
+
+#BinNumberForm{
+    width:500px;
+    height:300px;
+    margin-top:3%;
+}
+
+#BinNumber{
+    margin-left:5px;
+    display:inline-block;
+}
+
+#SubmitBinNumber{
+    margin-left:50px
+}
+
+#OtherDeatilsForm{
+    width:300px;
+    height:300px;
+    margin-top:3%;
+}
+
+#Name, #Location, #Owner, #Mail ,#SubmitOtherDetails{
+    float: right;
+}
