@@ -11,7 +11,7 @@ $(document).on("click",".moveToDetails",function(){
 
    
 $(document).on("click",".congratulations",function(){
-    newBinData.Limit = $("#SliderLimitRange").val()
+    newBinData.Limit = parseInt($("#SliderLimitRange").val())
     changeFillingOfLimitBin(0)
     $("#SliderLimitRange").val(0)
     updateDB(newBinData.Id,newBinData)

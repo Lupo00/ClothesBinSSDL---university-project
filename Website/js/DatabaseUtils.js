@@ -10,8 +10,8 @@ function updateDB(bin,data)
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", FIREBASE_URL+"/"+"Bin"+bin+"/.json", false );
     xmlHttp.send(null);
-    data.Height = JSON.parse(xmlHttp.responseText).Height
-    data.curHeight = JSON.parse(xmlHttp.responseText).curHeight
+    data.Height = parseInt(JSON.parse(xmlHttp.responseText).Height)
+    data.curHeight = parseInt(JSON.parse(xmlHttp.responseText).curHeight)
     var json = JSON.stringify(data);
     xmlHttp.open( "PUT", FIREBASE_URL+"/"+"Bin"+bin+"/.json", true ); // false for synchronous request
     xmlHttp.send(json);
